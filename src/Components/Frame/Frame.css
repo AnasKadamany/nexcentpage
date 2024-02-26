@@ -1,0 +1,22 @@
+.Frame {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--Silver);
+  align-items: center;
+  padding: 2rem 0;
+}
+.FrameHeader {
+  margin: 0;
+  font-size: 4rem;
+}
+.Frame > button {
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 850px) {
+  .FrameHeader {
+    font-size: 2rem;
+  }
+}

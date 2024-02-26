@@ -1,0 +1,98 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--Black);
+}
+.Footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 16rem;
+}
+.Footer-left div:nth-child(2) {
+  color: var(--Silver);
+  text-align: left;
+  margin: 0;
+}
+.SocialIconsDiv > * {
+  margin: 0 0.5rem;
+}
+.Company {
+  text-align: left;
+  color: var(--White);
+  height: 20rem;
+}
+.Company > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Support {
+  text-align: left;
+  color: var(--White);
+  height: 20rem;
+}
+.Support > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Footer-left > img {
+  width: 10rem;
+}
+.Footer-right {
+  display: flex;
+  text-align: center;
+  height: 70%;
+  width: 50rem;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-top: 3rem;
+}
+.Footer-left > * {
+  text-align: center;
+}
+.Footer-Input {
+  height: 2rem;
+  background: var(--Grey_blue);
+  border-radius: 5px;
+  width: 100%;
+}
+.Mail {
+  width: 13rem;
+}
+@media only screen and (max-width: 850px) {
+  .Footer {
+    flex-direction: column;
+  }
+  .Footer-left > img {
+    width: 15rem;
+  }
+  .Footer-left {
+    height: 12rem;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .Footer-right {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .Footer-left div > * {
+    text-align: center !important;
+  }
+  .Company {
+    text-align: center;
+  }
+  .Support {
+    text-align: center;
+  }
+
+  .Mail > h3 {
+    text-align: center !important;
+  }
+}

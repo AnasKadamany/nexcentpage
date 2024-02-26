@@ -1,0 +1,71 @@
+.Community {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.Community-Heading {
+  width: 40%;
+}
+
+.CommunityImgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 2rem;
+  margin: 2rem 2rem;
+}
+
+.CommunityImgDiv > img {
+  width: 24rem;
+  z-index: -1;
+}
+
+.CommunityImgDiv > div {
+  position: absolute;
+}
+
+.initialDiv {
+  background: var(--Silver);
+  width: 20rem;
+  height: 9rem;
+  border-radius: 15px;
+  z-index: 1;
+  top: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CommunityImgFlexDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.initialDiv > button {
+  background: transparent;
+  color: var(--Primary);
+  flex: 1;
+}
+
+.initialDiv > button {
+  font-size: 1.2rem;
+}
+.initialDiv > h3 {
+  font-size: 1.1rem;
+  color: var(--Grey);
+  flex: 1;
+}
+@media only screen and (max-width: 850px) {
+  .CommunityImgFlexDiv {
+    flex-direction: column;
+  }
+  .Community-Heading {
+    width: 100%;
+  }
+}

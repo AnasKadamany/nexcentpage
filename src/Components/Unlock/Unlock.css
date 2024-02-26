@@ -1,0 +1,61 @@
+.Unlock {
+  width: 100%;
+
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.u-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.u-right {
+  flex: 1;
+}
+.u-left > img {
+  width: 30rem;
+  margin-right: 2rem;
+}
+.u-right > h1 {
+  text-align: left;
+  color: var(--D_Grey);
+  width: 70%;
+  font-size: 2rem !important;
+}
+.u-right > p {
+  text-align: left;
+  color: var(--D_Grey);
+  width: 70%;
+}
+button > p {
+  color: white;
+}
+@media only screen and (max-width: 850px) {
+  .Unlock {
+    flex-direction: column;
+    height: 90vh;
+  }
+  .u-right > h1 {
+    text-align: center;
+    color: var(--D_Grey);
+    font-size: 1.5rem !important;
+    width: 100%;
+  }
+  .u-right > p {
+    text-align: center;
+    color: var(--D_Grey);
+    width: 100%;
+    font-size: 1rem !important;
+  }
+  .BtnDiv {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .u-left > img {
+    width: 100%;
+    margin-right: 2rem;
+  }
+}

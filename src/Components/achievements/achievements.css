@@ -1,0 +1,43 @@
+.Achievements {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--Silver);
+  margin-top: 2rem;
+}
+.Grey-Head {
+  color: var(--Grey);
+  text-align: left;
+  margin: 0;
+}
+.Green-Head {
+  color: var(--Primary);
+  text-align: left;
+  margin: 0;
+}
+.Ach-Counts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Count {
+  display: flex;
+  margin: 2rem;
+}
+.Count > div > p {
+  margin: 0;
+  text-align: left;
+}
+@media only screen and (max-width: 850px) {
+  .Achievements {
+    flex-direction: column;
+  }
+  .Grey-Head {
+    text-align: center;
+  }
+  .Green-Head {
+    text-align: center;
+  }
+}
